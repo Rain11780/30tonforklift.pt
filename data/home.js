@@ -1,241 +1,233 @@
 export const navbar = {
 	brand: {
-		name: "SOCMA 30 Ton Forklift",
+		name: "Empilhadeira SOCMA 30 Toneladas",
 		logo: "https://image.30tonforklift.com/home/logo.png"
 	},
 	menu: [
-		{ label: "Home", href: "/" },
-		// { label: "Collection", href: "/collection" },
-		// { label: "Product", href: "/product" },
-		{ label: "About", href: "/about" },
-		{ label: "Contact", href: "/contact" }
+		{ label: "Início", href: "/" },
+		{ label: "Sobre", href: "/about" },
+		{ label: "Contato", href: "/contact" }
 	],
 	button: {
-		text: "Free Quote",
-		title: "Request a Free Quote",
-		description: "Please provide any additional details or specific requirements..."
+		text: "Orçamento Gratuito",
+		title: "Solicitar um Orçamento Gratuito",
+		description: "Por favor, forneça quaisquer detalhes adicionais ou requisitos específicos..."
 	}
 };
 
 export const hero = {
-	title: "SOCMA 30 Ton Forklift Built for Your Toughest Challenges",
-	focus: "SOCMA 30 Ton Forklift",
+	title: "Empilhadeira SOCMA 30 Toneladas Construída para Seus Desafios Mais Difíceis",
+	focus: "Empilhadeira SOCMA 30 Toneladas",
 	bg_image: "https://image.30tonforklift.com/home/hero.jpg",
-	description: "Power up your operations with a 30 ton forklift designed for heavy-duty industries. From coal mining tire handling to steel smelting with electromagnets, stone quarrying, and container logistics, SOCMA’s HNF-300 delivers unmatched reliability. Looking for a 30 ton forklift for sale or 30 ton forklift rental? We’ve got you covered – whether in Sydney, Montgomery, or beyond.",
+	description: "Potencialize suas operações com uma empilhadeira de 30 toneladas projetada para indústrias pesadas. Desde manuseio de pneus em mineração de carvão até fundição de aço com eletroímãs, pedreiras de pedra e logística de contêineres, a HNF-300 da SOCMA oferece confiabilidade incomparável. Procurando uma empilhadeira de 30 toneladas à venda ou para aluguel? Nós temos a solução – seja em Sydney, Montgomery ou além.",
 	button: [
 		{
-			title: "Explore Products",
-			variant: "default",
+			title: "Explorar Produtos",
+			variant: "padrão",
 			href: "/products"
 		},
 		{
-			title: "Custom Solutions",
-			variant: "outline",
+			title: "Soluções Personalizadas",
+			variant: "contorno",
 			href: "/contact"
 		}
 	],
 	feature: [
 		{
-			title: "Targeted Solutions",
-			description: "Built for coal mining, steel handling, and stone quarrying."
+			title: "Soluções Específicas",
+			description: "Construída para mineração de carvão, manuseio de aço e pedreiras."
 		},
 		{
-			title: "Custom Configurations",
-			description: "Add tire clamps, electromagnets, or pipe stabilizers"
+			title: "Configurações Personalizadas",
+			description: "Adicione grampos de pneus, eletroímãs ou estabilizadores de tubos."
 		},
 		{
-			title: "Competitive Pricing",
-			description: "Best 30 ton forklift price for top performance."
+			title: "Preços Competitivos",
+			description: "Melhor preço de empilhadeira de 30 toneladas com alto desempenho."
 		},
 		{
-			title: "Fast Delivery",
-			description: "60-day delivery with 1-year quality support."
+			title: "Entrega Rápida",
+			description: "Entrega em 60 dias com suporte de qualidade de 1 ano."
 		}
 	]
 };
 
 export const featuredCategories = {
-	title: "Real-World Applications of SOCMA 30 Ton Forklifts",
-	focus: "Real-World Applications",
-	cta_text: "View All Categories",
+	title: "Aplicações no Mundo Real das Empilhadeiras SOCMA 30 Toneladas",
+	focus: "Aplicações no Mundo Real",
+	cta_text: "Ver Todas as Categorias",
 	cta_link: "",
-	description: "Discover how SOCMA’s 30 ton forklifts empower industries worldwide. From mining to manufacturing, our heavy-duty solutions—available for 30 ton forklift rental or 30 ton forklift for sale—tackle the toughest challenges with precision and efficiency.",
+	description: "Descubra como as empilhadeiras de 30 toneladas da SOCMA capacitam indústrias em todo o mundo. Da mineração à manufatura, nossas soluções para serviços pesados — disponíveis para aluguel ou venda — enfrentam os desafios mais difíceis com precisão e eficiência.",
 	items: [
 		{
-			title: "Coal and Non-Ferrous Metal Mining",
-			focus: "Mining",
+			title: "Mineração de Carvão e Metais Não Ferrosos",
+			focus: "Mineração",
 			slug: "/contact",
 			image: "https://image.30tonforklift.com/home/coal-and-non-ferrous-metal-mining.jpg",	
-			description: "Indonesia’s coal mines require robust lifting for vehicle maintenance. Our 30 ton forklift with tire clamps excels in harsh conditions. Diesel-powered with a 3500 mm lift height, it cuts downtime by 30%, ensuring efficient repairs."
+			description: "As minas de carvão da Indonésia exigem elevação robusta para manutenção de veículos. Nossa empilhadeira de 30 toneladas com grampos de pneus se destaca em condições adversas. Movida a diesel com altura de elevação de 3500 mm, reduz o tempo de inatividade em 30%, garantindo reparos eficientes."
 		},
 		{
-			title: "Steel Smelting and Handling",
-			focus: "Steel",
+			title: "Fundição e Manuseio de Aço",
+			focus: "Aço",
 			slug: "/contact",
 			image: "https://image.30tonforklift.com/home/steel-smelting-and-handling.jpg",
-			description: "In Brazil, steel plants need safe ladle handling. Our 30 ton forklift with electromagnets ensures precise steel profile transport. With a 5700 mm max lift and heat-resistant design, it boosts productivity by 25%, reducing risks."
+			description: "No Brasil, usinas de aço precisam de manuseio seguro de conchas. Nossa empilhadeira de 30 toneladas com eletroímãs garante transporte preciso de perfis de aço. Com elevação máxima de 5700 mm e design resistente ao calor, aumenta a produtividade em 25%, reduzindo riscos."
 		},
 		{
-			title: "Stone Quarrying",
-			focus: "Stone",
+			title: "Pedreiras de Pedra",
+			focus: "Pedra",
 			slug: "/contact",
 			image: "https://image.30tonforklift.com/home/stone-quarrying.jpg",		
-			description: "South Africa’s quarries face rough terrain for stone block transport. Our 30 ton forklift with 410 mm ground clearance excels. Diesel-powered with reinforced forks, it ensures stability, speeding up operations by 20%"
+			description: "As pedreiras da África do Sul enfrentam terrenos acidentados para transporte de blocos de pedra. Nossa empilhadeira de 30 toneladas com 410 mm de altura livre do solo se destaca. Movida a diesel com garfos reforçados, garante estabilidade, acelerando as operações em 20%."
 		},
 		{
-			title: "Construction Projects",
-			focus: "Construction",
+			title: "Projetos de Construção",
+			focus: "Construção",
 			slug: "/contact",
 			image: "https://image.30tonforklift.com/home/construction-projects.jpg",
-			description: "In Peru, construction sites require heavy cement product lifting. Our 30 ton forklift with a 30,000 KGS capacity and 24 km/h speed excels. Its ergonomic controls reduce operator fatigue, cutting delays by 15%."
+			description: "No Peru, canteiros de obras exigem elevação de produtos pesados de cimento. Nossa empilhadeira de 30 toneladas com capacidade de 30.000 kg e velocidade de 24 km/h se destaca. Seus controles ergonômicos reduzem a fadiga do operador, diminuindo atrasos em 15%."
 		},
 		{
-			title: "Petrochemical Industry",
-			focus: "Petrochemical",
+			title: "Indústria Petroquímica",
+			focus: "Petroquímica",
 			slug: "/contact",
 			image: "https://image.30tonforklift.com/home/petrochemical-industry.jpg",
-			description: "Nigeria’s oilfields need stable pipe transport in rugged environments. Our 30 ton forklift with pipe stabilizers ensures secure handling. Electric-powered for zero emissions, it reduces setup time by 20%, enhancing safety."
+			description: "Os campos de petróleo da Nigéria precisam de transporte estável de tubos em ambientes difíceis. Nossa empilhadeira de 30 toneladas com estabilizadores de tubos garante manuseio seguro. Movida a eletricidade para zero emissões, reduz o tempo de configuração em 20%, aumentando a segurança."
 		},
 		{
-			title: "Warehousing and Logistics",
-			focus: "Warehousing",
+			title: "Armazenagem e Logística",
+			focus: "Armazenagem",
 			slug: "/contact",
 			image: "https://image.30tonforklift.com/home/warehousing-and-logistics.jpg",
-			description: "Malaysia’s ports demand efficient container handling. Our 30 ton forklift with container spreaders and serial bars manages heavy loads. With a 7260 mm turning radius, it improves dock efficiency by 30%, minimizing delays."
+			description: "Os portos da Malásia exigem manuseio eficiente de contêineres. Nossa empilhadeira de 30 toneladas com espalhadores de contêineres e barras seriais gerencia cargas pesadas. Com raio de giro de 7260 mm, melhora a eficiência do cais em 30%, minimizando atrasos."
 		},
 		{
-			title: "Rental and Heavy Lifting",
-			focus: "Rental",
+			title: "Aluguel e Elevação Pesada",
+			focus: "Aluguel",
 			slug: "/contact",
 			image: "https://image.30tonforklift.com/home/rental-and-heavy-lifting.jpg",
-			description: "In Thailand, logistics firms need flexible heavy lifting. Our 30 ton forklift rental handles oversized equipment. Configured with a 220 kN traction force, it offers cost-effective operations, reducing rental costs by 15%."
+			description: "Na Tailândia, empresas de logística precisam de elevação pesada flexível. Nosso aluguel de empilhadeira de 30 toneladas lida com equipamentos superdimensionados. Configurada com força de tração de 220 kN, oferece operações econômicas, reduzindo custos de aluguel em 15%."
 		},
 		{
-			title: "Manufacturing and Shipbuilding",
-			focus: "Construction",
+			title: "Manufatura e Construção Naval",
+			focus: "Construção",
 			slug: "/contact",
 			image: "https://image.30tonforklift.com/home/manufacturing-and-shipbuilding.jpg",
-			description: "Germany’s wind power plants move heavy wind tower parts. Our 30 ton forklift with a 5700 mm lift height and reinforced frame ensures precision. It boosts factory efficiency by 25%, solving slow material handling issues."
+			description: "As usinas de energia eólica da Alemanha movem peças pesadas de torres eólicas. Nossa empilhadeira de 30 toneladas com altura de elevação de 5700 mm e estrutura reforçada garante precisão. Aumenta a eficiência da fábrica em 25%, resolvendo problemas de manuseio lento de materiais."
 		}
 	]
 };
 
 export const customizableOptions = {
-	title: "SOCMA HNF300 30 Ton Forklift Configurations",
-	focus: "Configurations",
-	description: "SOCMA HNF300 30 Ton Forklift: Heavy-duty design with advanced features for superior performance, reliability, and efficiency in demanding industrial applications.",
+	title: "Configurações da Empilhadeira SOCMA HNF300 30 Toneladas",
+	focus: "Configurações",
+	description: "Empilhadeira SOCMA HNF300 30 Toneladas: Design para serviços pesados com recursos avançados para desempenho, confiabilidade e eficiência superiores em aplicações industriais exigentes.",
 	items: [
 		{
-			title: "DRIVING AXLE",
-			id: "materials",
-			description: "Heavy-duty front axle with enlarged housing, hub, and bearings; spiral bevel and planetary gear for increased torque; steel structure ensures high load capacity and durability.",
+			title: "EIXO DE TRANSMISSÃO",
+			id: "materiais",
+			description: "Eixo dianteiro para serviços pesados com carcaça, cubo e rolamentos ampliados; engrenagem cônica espiral e planetária para maior torque; estrutura de aço garante alta capacidade de carga e durabilidade.",
 			image: "https://image.30tonforklift.com/home/driving-axle.jpg",
 			options: [
-				{ title: "1", description: "The front axle adopts a heavy-duty forklift drive axle. The axle housing, wheel hub and bearing are enlarged in size. The spiral bevel gear and wheel side planetary gear reduce speed and increase the torque. The steel type axle housing support, ensure the large load capacity and long service life." },
-				{ title: "2", description: "Using non-spoke pressure plate rim, the wheel hub has a stronger bearing capacity and is convenient for maintenance and disassembly." },
-				{ title: "3", description: "The rear axle adopts a horizontal hydraulic cylinder steering mechanism. The steering axle has a compact structure and a steering angle is up to 70.5, which is beneficial to reduce steering resistance, reduce tire wear, and improve driving comfort." },
-				{ title: "4", description: "German Kessler driving axle is optional." }		
-				
-			
+				{ title: "1", description: "O eixo dianteiro adota um eixo de transmissão para empilhadeiras pesadas. A carcaça do eixo, cubo da roda e rolamento são ampliados. A engrenagem cônica espiral e a engrenagem planetária lateral reduzem a velocidade e aumentam o torque. A carcaça do eixo de tipo aço suporta, garantindo grande capacidade de carga e longa vida útil." },
+				{ title: "2", description: "Utiliza aro de placa de pressão sem raios, o cubo da roda tem maior capacidade de suporte e é conveniente para manutenção e desmontagem." },
+				{ title: "3", description: "O eixo traseiro adota um mecanismo de direção com cilindro hidráulico horizontal. O eixo de direção tem uma estrutura compacta e um ângulo de direção de até 70,5, o que ajuda a reduzir a resistência ao dirigir, diminuir o desgaste dos pneus e melhorar o conforto de condução." },
+				{ title: "4", description: "Eixo de transmissão Kessler alemão é opcional." }		
 			]
 		},
 		{
-			title: "TRANSMISSION",
-			id: "TRANSMISSION",
-			description: "Planetary torque converter and transmission, R&D by SOCMA; high-strength hub reduction; 30 years of tech expertise ensures stability, reliability, and smooth gear shifts.",
+			title: "TRANSMISSÃO",
+			id: "TRANSMISSÃO",
+			description: "Conversor de torque planetário e transmissão, desenvolvidos pela SOCMA; redução de cubo de alta resistência; 30 anos de experiência técnica garantem estabilidade, confiabilidade e mudanças de marcha suaves.",
 			image: "https://image.30tonforklift.com/home/transmission.jpg",
 			options: [
-				{ title: "1", description: "tandard equipped with domestic famous brand planetary transmission, automatic shift transmission can change gears very smoothly, reliable, safe, and easy to maintain." },
-				{ title: "2", description: "It adopts double-turbo hydraulic torque converter, stepless speed change, single lever control speed change system, which makes the operation easier." },
-				{ title: "3", description: "Equipped With A Neutral Start Device, The Whole Machine Starts More Safety." },
-				{ title: "4", description: "Optional With Electric Transmission, Electric Control Valve, German ZF Transmission, And Power Shift Fixed Axis Hydraulic Transmission For Forklifts." }
-				
+				{ title: "1", description: "Equipada com transmissão planetária de marca nacional famosa, a transmissão de mudança automática pode mudar marchas muito suavemente, confiável, segura e fácil de manter." },
+				{ title: "2", description: "Adota conversor de torque hidráulico de dupla turbina, mudança de velocidade contínua, sistema de controle de velocidade por alavanca única, o que facilita a operação." },
+				{ title: "3", description: "Equipada com dispositivo de partida neutra, a máquina inteira inicia com mais segurança." },
+				{ title: "4", description: "Opcional com transmissão elétrica, válvula de controle elétrica, transmissão ZF alemã e transmissão hidráulica de eixo fixo com mudança de potência para empilhadeiras." }
 			]
 		},
 		{
-			title: "LIFTING COMPONENTS",
-			id: "finishes",
-			description: "Box-type mast with roller bearings for enhanced lifting; hydraulic fork positioner for easy adjustment; Cascade forks, wear-resistant, doubles lifespan; 3.5m lift height standard.",
+			title: "COMPONENTES DE ELEVAÇÃO",
+			id: "acabamentos",
+			description: "Mastro tipo caixa com rolamentos de rolos para elevação aprimorada; posicionador de garfo hidráulico para ajuste fácil; garfos Cascade, resistentes ao desgaste, dobram a vida útil; altura de elevação padrão de 3,5 m.",
 			image: "https://image.30tonforklift.com/home/lifiting-components.jpg",
 			options: [
-				{ title: "1", description: "Reinforced design of special mine carriage and mast; through Finite Element Analysis(FEA), it has the ability to resist and high- intensity operations." },
-				{ title: "2", description: "Standard equipped with a widened duplex mast, which enhances the torsion resistance of the mast, and has a wide field of vision; double speed limit valve oil circuit (the mast is lowered with a speed limit valve to reduce the impact of the hydraulic system), which is more safe." },
-				{ title: "3", description: "Optional with duplex and triplex free lifting mast. Standard with hydraulic heavy-duty side shift fork positioner" },
-				{ title: "4", description: "The forks are interchangeable and can be replaced quickly; Standard with Cascade brand forks , which are stronger, more wear- resistant, and can double their service time." }
-			
+				{ title: "1", description: "Design reforçado de carruagem e mastro especial para minas; por meio de Análise de Elementos Finitos (FEA), tem a capacidade de resistir a operações de alta intensidade." },
+				{ title: "2", description: "Equipada com mastro duplex alargado, que aumenta a resistência à torção do mastro e tem um amplo campo de visão; circuito de óleo com válvula de limite de dupla velocidade (o mastro é abaixado com uma válvula de limite de velocidade para reduzir o impacto do sistema hidráulico), o que é mais seguro." },
+				{ title: "3", description: "Opcional com mastro de elevação livre duplex e triplex. Equipada com posicionador de garfo de deslocamento lateral hidráulico para serviços pesados." },
+				{ title: "4", description: "Os garfos são intercambiáveis e podem ser substituídos rapidamente; Equipada com garfos da marca Cascade, que são mais fortes, mais resistentes ao desgaste e podem dobrar seu tempo de serviço." }
 			]
 		},
 		{
-			title: "HYDRAULIC SYSTEM",
-			id: "performance",
-			description: "Double pump confluence system for low flow, low power use; pilot valve control for efficiency; explosion-proof safety valve ensures pipeline safety and reliable performance.",
+			title: "SISTEMA HIDRÁULICO",
+			id: "desempenho",
+			description: "Sistema de confluência de dupla bomba para baixo fluxo e baixo consumo de energia; controle de válvula piloto para eficiência; válvula de segurança à prova de explosão garante a segurança da tubulação e desempenho confiável.",
 			image: "https://image.30tonforklift.com/home/hydraulic-system.jpg",
 			options: [
-				{ title: "1", description: "Double pumps merge, steering priority hydraulic system. The system has small flow, low power consumption, reliable performance and excellent operating performance." },
-				{ title: "2", description: "The hydraulic system is equipped with oil return radiator and back pressure protection device to ensure the heat balance of the whole machine." },
-				{ title: "3", description: "The single-handle joystick control valve and electronically controlled variable speed control valve, make operation of the whole machine lighter and more flexible. Highlight the characteristics of high-quality material handling products." }
-				
+				{ title: "1", description: "Bombas duplas convergem, sistema hidráulico de prioridade de direção. O sistema tem baixo fluxo, baixo consumo de energia, desempenho confiável e excelente desempenho operacional." },
+				{ title: "2", description: "O sistema hidráulico é equipado com radiador de retorno de óleo e dispositivo de proteção contra pressão de retorno para garantir o equilíbrio térmico da máquina inteira." },
+				{ title: "3", description: "A válvula de controle de joystick de alavanca única e a válvula de controle de velocidade variável controlada eletronicamente tornam a operação da máquina mais leve e flexível. Destacam as características de produtos de manuseio de materiais de alta qualidade." }
 			]
 		},
 		{
-			title: "CAB",
-			id: "performance1",
-			description: "Luxury wide-view cab with AC, heater, and joystick control; shock-absorbing, sound-insulated, with sunroof; adjustable steering and seating for comfort and flexible operation.",
+			title: "CABINE",
+			id: "desempenho1",
+			description: "Cabine de visão ampla luxuosa com ar-condicionado, aquecedor e controle por joystick; absorção de choque, isolamento acústico, com teto solar; direção e assento ajustáveis para conforto e operação flexível.",
 			image: "https://image.30tonforklift.com/home/cab.jpg",
 			options: [
-				{ title: "1", description: "The luxurious wide-view cab is equipped with a sunroof, which has low noise and good sealing, which is convenient for the driver to observe all around." },
-				{ title: "2", description: "The steering wheel is adjustable, small and dexterous, which enlarge the space for driver's leg; Supplemented by luxury airline seats to bring comfortable and flexible operation experience." },
-				{ title: "3", description: "Equipped with air-conditioner and heater; new LCD instrument (above 18 tons, optional for small tonnage) CAN integration, the engine and vehicle related parameters are integrated, high-end and beautiful appearance." },
-				{ title: "4", description: "Optional tilting cab (12-18 tons) for easy access to the interior of the vehicle for maintenance." },
-				{ title: "5", description: "All series forklifts are equipped with a reversing display screen; weight counter can be installed based on customer requirements." }
-				
+				{ title: "1", description: "A cabine de visão ampla luxuosa é equipada com teto solar, tem baixo ruído e boa vedação, o que é conveniente para o motorista observar ao redor." },
+				{ title: "2", description: "O volante é ajustável, pequeno e ágil, o que amplia o espaço para as pernas do motorista; complementado por assentos de linha aérea de luxo para proporcionar uma experiência de operação confortável e flexível." },
+				{ title: "3", description: "Equipada com ar-condicionado e aquecedor; novo instrumento LCD (acima de 18 toneladas, opcional para pequenas tonelagens) integração CAN, os parâmetros relacionados ao motor e ao veículo são integrados, aparência sofisticada e bela." },
+				{ title: "4", description: "Cabine basculante opcional (12-18 toneladas) para fácil acesso ao interior do veículo para manutenção." },
+				{ title: "5", description: "Todas as séries de empilhadeiras são equipadas com uma tela de exibição de ré; contador de peso pode ser instalado com base nas exigências do cliente." }
 			]
 		}
 	]
 };
 
 export const customizableProcess = {
-	title: "SOCMA Partnership Process",
-	focus: "Process",
-	description: "Partner with SOCMA for your 30 ton forklift for sale or 30 ton forklift rental. Our streamlined process ensures you get a tailored heavy-duty solution with reliable support every step of the way.",
+	title: "Processo de Parceria com a SOCMA",
+	focus: "Processo",
+	description: "Faça parceria com a SOCMA para sua empilhadeira de 30 toneladas à venda ou para aluguel. Nosso processo simplificado garante que você obtenha uma solução pesada personalizada com suporte confiável em cada etapa do caminho.",
 	items: [
 		{
-			title: "Inquiry",
-			description: "Contact us with your needs for a 30 ton forklift. Whether you’re looking to buy, rent, or customize with attachments like tire clamps, our team responds within 24 hours to understand your requirements and start the process.",
+			title: "Consulta",
+			description: "Entre em contato conosco com suas necessidades para uma empilhadeira de 30 toneladas. Seja para comprar, alugar ou personalizar com acessórios como grampos de pneus, nossa equipe responde em 24 horas para entender suas exigências e iniciar o processo.",
 			highlights: []
 		},
 		{
-			title: "Consultation",
-			description: "Our experts assess your operational needs and recommend the best 30 ton forklift setup. We guide you on engine options, like diesel or electric, and features to ensure the forklift aligns perfectly with your business goals.",
+			title: "Consultoria",
+			description: "Nossos especialistas avaliam suas necessidades operacionais e recomendam a melhor configuração de empilhadeira de 30 toneladas. Orientamos sobre opções de motor, como diesel ou elétrico, e recursos para garantir que a empilhadeira esteja perfeitamente alinhada com seus objetivos de negócios.",
 			highlights: []
 		},
 		{
-			title: "Customization",
-			description: "We tailor your 30 ton forklift with attachments like electromagnets or container spreaders. From cabin design to hydraulic systems, we configure the forklift to meet your specific operational demands with precision.",
+			title: "Personalização",
+			description: "Personalizamos sua empilhadeira de 30 toneladas com acessórios como eletroímãs ou espalhadores de contêineres. Do design da cabine aos sistemas hidráulicos, configuramos a empilhadeira para atender às suas demandas operacionais específicas com precisão.",
 			highlights: []
 		},
 		{
-			title: "Quoting",
-			description: "Receive a competitive 30 ton forklift price quote for purchase or rental. We provide clear pricing, including delivery timelines and terms, so you can make an informed decision with confidence and transparency.",
+			title: "Orçamento",
+			description: "Receba um orçamento competitivo para o preço da empilhadeira de 30 toneladas para compra ou aluguel. Fornecemos preços claros, incluindo prazos de entrega e termos, para que você possa tomar uma decisão informada com confiança e transparência.",
 			highlights: []
 		},
 		{
-			title: "Delivery",
-			description: "Your 30 ton forklift is delivered within 90 days to your location. We manage logistics and offer on-site setup support, ensuring your equipment is ready to perform in heavy-duty tasks without any delays.",
+			title: "Entrega",
+			description: "Sua empilhadeira de 30 toneladas é entregue em 90 dias ao seu local. Gerenciamos a logística e oferecemos suporte de configuração no local, garantindo que seu equipamento esteja pronto para atuar em tarefas pesadas sem atrasos.",
 			highlights: []
 		},
 		{
-			title: "After-Sales",
-			description: "Benefit from 1-year quality support for your 30 ton forklift. We provide maintenance, spare parts, and technical assistance to ensure long-term reliability, keeping your operations running smoothly.",
+			title: "Pós-venda",
+			description: "Beneficie-se de 1 ano de suporte de qualidade para sua empilhadeira de 30 toneladas. Fornecemos manutenção, peças sobressalentes e assistência técnica para garantir confiabilidade a longo prazo, mantendo suas operações funcionando sem problemas.",
 			highlights: []
 		}
 	]
 };
 
 export const productionCapacity = {
-	title: "SOCMA 30 Ton Forklift in Action",
-	focus: "SOCMA 30 Ton Forklift",
-	description: "Explore our 30 ton forklifts working across industries, equipped with attachments like tire clamps, electromagnets, and container spreaders for tasks in mining, steel handling, and logistics. See how they perform in real-world scenarios.",
+	title: "Empilhadeira SOCMA 30 Toneladas em Ação",
+	focus: "Empilhadeira SOCMA 30 Toneladas",
+	description: "Explore nossas empilhadeiras de 30 toneladas trabalhando em várias indústrias, equipadas com acessórios como grampos de pneus, eletroímãs e espalhadores de contêineres para tarefas em mineração, manuseio de aço e logística. Veja como elas performam em cenários do mundo real.",
 	items: [
 		{
 			image: "https://image.30tonforklift.com/home/case1.jpg",
@@ -281,109 +273,109 @@ export const productionCapacity = {
 };
 
 export const faq = {
-	title: "Frequently Asked Questions",
-	focus: "Questions",
-	description: "Got questions about our 30 ton forklifts? Find answers below to help you decide on a 30 ton forklift for sale—brand new and tailored for your heavy-duty needs.",
-	cta_prefix: "Still have questions?",
-	cta_text: "Contact us",
+	title: "Perguntas Frequentes",
+	focus: "Perguntas",
+	description: "Tem dúvidas sobre nossas empilhadeiras de 30 toneladas? Encontre respostas abaixo para ajudá-lo a decidir sobre uma empilhadeira de 30 toneladas à venda — nova e personalizada para suas necessidades pesadas.",
+	cta_prefix: "Ainda tem perguntas?",
+	cta_text: "Entre em contato",
 	cta_link: "/contact",
 	items: [
 		{
-			question: "What is the price of a 30 ton forklift?",
-			answer: "Our 30 ton forklift price varies based on configuration and attachments. Contact us for a competitive quote tailored to your needs for a brand-new unit."
+			question: "Qual é o preço de uma empilhadeira de 30 toneladas?",
+			answer: "O preço de nossa empilhadeira de 30 toneladas varia com base na configuração e acessórios. Entre em contato para um orçamento competitivo adaptado às suas necessidades para uma unidade nova."
 		},
 		{
-			question: "What industries use a 30 ton forklift?",
-			answer: "Our 30 ton forklifts are used in mining, steel smelting, construction, petrochemicals, logistics, and manufacturing, handling heavy loads with ease."
+			question: "Quais indústrias utilizam uma empilhadeira de 30 toneladas?",
+			answer: "Nossas empilhadeiras de 30 toneladas são usadas em mineração, fundição de aço, construção, petroquímica, logística e manufatura, lidando com cargas pesadas com facilidade."
 		},
 		{
-			question: "What are the controls like on a 30 ton forklift?",
-			answer: "The 30 ton forklift controls feature ergonomic hydraulic joysticks and a luxury cabin, ensuring precise operation and operator comfort during heavy-duty tasks."
+			question: "Como são os controles de uma empilhadeira de 30 toneladas?",
+			answer: "Os controles da empilhadeira de 30 toneladas possuem joysticks hidráulicos ergonômicos e uma cabine de luxo, garantindo operação precisa e conforto do operador durante tarefas pesadas."
 		},
 		{
-			question: "How do I use a 30 ton forklift safely?",
-			answer: "Our 30 ton forklift how to use guide includes operator training. With safety features like load-sensing hydraulics, it ensures safe handling of heavy loads."
+			question: "Como usar uma empilhadeira de 30 toneladas com segurança?",
+			answer: "Nosso guia de como usar a empilhadeira de 30 toneladas inclui treinamento do operador. Com recursos de segurança como hidráulica sensível à carga, garante manuseio seguro de cargas pesadas."
 		},
 		{
-			question: "What is the capacity of a 30 ton forklift?",
-			answer: "Our 30 ton capacity forklifts can lift up to 30,000 KGS at a 1250 mm load center, perfect for heavy-duty applications like steel handling and logistics."
+			question: "Qual é a capacidade de uma empilhadeira de 30 toneladas?",
+			answer: "Nossas empilhadeiras de capacidade de 30 toneladas podem levantar até 30.000 kg em um centro de carga de 1250 mm, perfeitas para aplicações pesadas como manuseio de aço e logística."
 		}
 	]
 };
 
 export const testimonials = {
-	title: "Customer Testimonials",
-	focus: "Testimonials",
-	description: "Hear from our satisfied clients worldwide who trust SOCMA’s 30 ton forklifts for their heavy-duty operations. From mining to manufacturing, our 30 ton forklift for sale delivers reliable performance across industries.",
+	title: "Depoimentos de Clientes",
+	focus: "Depoimentos",
+	description: "Ouça nossos clientes satisfeitos em todo o mundo que confiam nas empilhadeiras de 30 toneladas da SOCMA para suas operações pesadas. Da mineração à manufatura, nossa empilhadeira de 30 toneladas à venda oferece desempenho confiável em várias indústrias.",
 	items: [
 		{
 			name: "Agus Santoso",
 			image: "https://image.30tonforklift.com/home/t1.jpg",
-			position: "Operations Manager, PT Mining Solutions, Indonesia",
-			comment: "SOCMA’s 30 ton forklift has been a game-changer for our coal mining operations. The tire clamps make vehicle maintenance so much easier, and its durability in harsh conditions is impressive. We’ve increased efficiency by 30% thanks to this reliable machine."
+			position: "Gerente de Operações, PT Mining Solutions, Indonésia",
+			comment: "A empilhadeira de 30 toneladas da SOCMA mudou o jogo para nossas operações de mineração de carvão. Os grampos de pneus facilitam muito a manutenção de veículos, e sua durabilidade em condições adversas é impressionante. Aumentamos a eficiência em 30% graças a esta máquina confiável."
 		},
 		{
 			name: "Carlos Mendes",
 			image: "https://image.30tonforklift.com/home/t2.jpg",
-			position: "Plant Supervisor, AçoBrasil Ltda, Brazil",
-			comment: "We purchased a 30 ton forklift with electromagnets for our steel smelting plant, and it’s been outstanding. It handles heavy steel profiles effortlessly, saving us time and reducing risks. SOCMA’s support team is also very responsive."
+			position: "Supervisor de Planta, AçoBrasil Ltda, Brasil",
+			comment: "Compramos uma empilhadeira de 30 toneladas com eletroímãs para nossa planta de fundição de aço, e ela tem sido excepcional. Lida com perfis de aço pesados sem esforço, economizando tempo e reduzindo riscos. A equipe de suporte da SOCMA também é muito responsiva."
 		},
 		{
 			name: "Thandiwe Ndlovu",
 			image: "https://image.30tonforklift.com/home/t3.jpg",
-			position: "Quarry Manager, StoneTech SA, South Africa",
-			comment: "The 30 ton forklift from SOCMA is perfect for our quarry. It moves raw stone blocks with stability, even on rough terrain. The reinforced forks and powerful engine have boosted our productivity significantly. Highly recommend it."
+			position: "Gerente de Pedreira, StoneTech SA, África do Sul",
+			comment: "A empilhadeira de 30 toneladas da SO CMA é perfeita para nossa pedreira. Move blocos de pedra bruta com estabilidade, mesmo em terrenos acidentados. Os garfos reforçados e o motor potente aumentaram significativamente nossa produtividade. Altamente recomendada."
 		},
 		{
 			name: "Luis Vargas",
 			image: "https://image.30tonforklift.com/home/t4.jpg",
-			position: "Site Foreman, ConstruPeru SAC, Peru",
-			comment: "SOCMA’s 30 ton forklift has improved our construction workflow. It handles cement prefabricated products with ease, and the ergonomic controls reduce operator fatigue. Delivery was on time, and the machine is built to last."
+			position: "Chefe de Obra, ConstruPeru SAC, Peru",
+			comment: "A empilhadeira de 30 toneladas da SOCMA melhorou nosso fluxo de trabalho na construção. Lida com produtos pré-fabricados de cimento com facilidade, e os controles ergonômicos reduzem a fadiga do operador. A entrega foi pontual, e a máquina é construída para durar."
 		},
 		{
 			name: "Chidi Okonkwo",
 			image: "https://image.30tonforklift.com/home/t5.jpg",
-			position: "Operations Lead, PetroNigeria Ltd, Nigeria",
-			comment: "We needed a reliable solution for transporting petroleum pipes, and SOCMA’s 30 ton forklift with pipe stabilizers delivered. It’s safe, efficient, and the electric option helps us meet environmental standards. Great investment."
+			position: "Líder de Operações, PetroNigeria Ltd, Nigéria",
+			comment: "Precisávamos de uma solução confiável para transportar tubos de petróleo, e a empilhadeira de 30 toneladas da SOCMA com estabilizadores de tubos entregou. É segura, eficiente, e a opção elétrica nos ajuda a atender aos padrões ambientais. Ótimo investimento."
 		},
 		{
 			name: "Hans Müller",
 			image: "https://image.30tonforklift.com/home/t6.jpg",
-			position: "Production Manager, WindTech GmbH, Germany",
-			comment: "Our wind power plant relies on SOCMA’s 30 ton forklift to move heavy wind tower components. The precision and lifting capacity are top-notch, and it has streamlined our factory operations. The after-sales support is excellent."
+			position: "Gerente de Produção, WindTech GmbH, Alemanha",
+			comment: "Nossa planta de energia eólica depende da empilhadeira de 30 toneladas da SOCMA para mover componentes pesados de torres eólicas. A precisão e a capacidade de elevação são de primeira linha, e ela otimizou as operações de nossa fábrica. O suporte pós-venda é excelente."
 		}
 	]
 };
 
 export const cta = {
-	title: "Let's Talk",
-	focus: "Talk",
-	description: "We're here to help you with your needs. Let's talk about how we can help you.",
+	title: "Vamos Conversar",
+	focus: "Conversa",
+	description: "Estamos aqui para ajudar com suas necessidades. Vamos conversar sobre como podemos ajudá-lo.",
 	cards: [
 		{
-			title: "Contact Us",
+			title: "Entre em Contato",
 			href: "/contact",
-			icon: "File",
-			description: "Contact us to get started."
+			icon: "Arquivo",
+			description: "Entre em contato para começar."
 		},
 		{
-			title: "About Us",
+			title: "Sobre Nós",
 			href: "/about",
-			icon: "Book",
-			description: "Email us to get started."
+			icon: "Livro",
+			description: "Envie-nos um e-mail para começar."
 		}
 	]
 };
 
 export const footer = {
-	brand: "© 2025 B For Anything | All rights reserved.",
+	brand: "© 2025 SOCMA | Todos os direitos reservados.",
 	policies: [
 		{
-			title: "Terms of Service",
+			title: "Termos de Serviço",
 			href: "/terms-of-service"
 		},
 		{
-			title: "Privacy Policy",
+			title: "Política de Privacidade",
 			href: "/privacy-policy"
 		}
 	]

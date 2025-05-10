@@ -1,57 +1,57 @@
 export const about = {
 	header: {
-		title: "About Us",
-		focus: "About",
-		description: "Founded in March 2010, SOCMA (Fujian SouthChina Heavy Machinery Manufacture Co., Ltd.) is a high-tech enterprise based in Quanzhou, Fujian Province. We specialize in logistics handling and electric construction machinery, offering innovative solutions like heavy forklifts, off-road forklifts, telescopic forklifts, port machinery, electric excavators, and loaders."
+		title: "Sobre Nós",
+		focus: "Sobre",
+		description: "Fundada em março de 2010, a SOCMA (Fujian SouthChina Heavy Machinery Manufacture Co., Ltd.) é uma empresa de alta tecnologia com sede em Quanzhou, província de Fujian. Especializamo-nos em equipamentos de manuseio logístico e máquinas de construção elétricas, oferecendo soluções inovadoras como empilhadeiras pesadas, empilhadeiras todo-terreno, empilhadeiras telescópicas, máquinas portuárias, escavadeiras elétricas e carregadeiras."
 	},
 	about_us: {
-		title: "Who We Are",
+		title: "Quem Somos",
 		image: "https://image.30tonforklift.com/home/about-us.jpg",
 		description: [
-			"SOCMA, founded in 2010 in Quanzhou, Fujian, is a high-tech leader in logistics handling and electric construction machinery. We produce heavy forklifts, off-road forklifts, telescopic forklifts, port machinery, and electric excavators, serving industries globally.",
-			"We export to over 40 countries across Europe, South America, Southeast Asia, the Middle East, and Africa. Known for quick customer response and high-quality customization, SOCMA is a trusted partner in mining, ports, logistics, and manufacturing, delivering reliable solutions.",
-			"Our mission is to provide cutting-edge machinery while staying customer-centric. Collaborating with the Chinese Academy of Sciences, we innovate with technologies like new energy and electric control, aiming to make SOCMA a globally respected brand."
+			"A SOCMA, fundada em 2010 em Quanzhou, Fujian, é líder em tecnologia de ponta em equipamentos de manuseio logístico e máquinas de construção elétricas. Produzimos empilhadeiras pesadas, empilhadeiras todo-terreno, empilhadeiras telescópicas, máquinas portuárias e escavadeiras elétricas, atendendo indústrias globalmente.",
+			"Exportamos para mais de 40 países na Europa, América do Sul, Sudeste Asiático, Oriente Médio e África. Conhecida pela rápida resposta ao cliente e customização de alta qualidade, a SOCMA é uma parceira confiável em mineração, portos, logística e manufatura, entregando soluções confiáveis.",
+			"Nossa missão é fornecer máquinas de ponta mantendo o foco no cliente. Em colaboração com a Academia Chinesa de Ciências, inovamos com tecnologias como energia renovável e controle elétrico, visando tornar a SOCMA uma marca respeitada globalmente."
 		]
 	},
 	vision_value: [
 		{
-			title: "Our Mission",
-			description: "To provide customers with leading logistics handling machinery and electric construction machinery products and services."
+			title: "Nossa Missão",
+			description: "Fornecer aos clientes produtos e serviços líderes em equipamentos de manuseio logístico e máquinas de construção elétricas."
 		},
 		{
-			title: "Our Vision",
-			description: "To make SOCMA globally respected brand."
+			title: "Nossa Visão",
+			description: "Tornar a SOCMA uma marca respeitada globalmente."
 		},
 		{
-			title: "Our Values",
-			description: "Customer-centric, people-oriented, self-critical and reflective, SOCMA will remain in the growth stage."
+			title: "Nossos Valores",
+			description: "Centrados no cliente, orientados para as pessoas, autocríticos e reflexivos, a SOCMA permanecerá em fase de crescimento."
 		}
 	],
 	why_choose_us: {
-		title: "Why Choose Us",
+		title: "Por Que Nos Escolher",
 		image: "https://image.30tonforklift.com/home/why-choose-us.jpg",
 		description: [
-			"SOCMA’s 30 ton forklifts are built for heavy-duty performance, offering unmatched reliability in industries like mining and steel handling. With advanced technology and durable design, our forklifts ensure efficient operations under tough conditions.",
-			"We prioritize customization, tailoring each 30 ton forklift to your needs with attachments like tire clamps or electromagnets. Our global supply chain sources top-quality components, ensuring your equipment meets the highest standards.",
-			"Our customer-centric approach means quick responses and dedicated support. From consultation to after-sales, SOCMA ensures your 30 ton forklift delivers long-term value, backed by innovation and a global network."
+			"As empilhadeiras de 30 toneladas da SOCMA são construídas para desempenho pesado, oferecendo confiabilidade incomparável em indústrias como mineração e manuseio de aço. Com tecnologia avançada e design durável, nossas empilhadeiras garantem operações eficientes em condições difíceis.",
+			"Priorizamos a customização, adaptando cada empilhadeira de 30 toneladas às suas necessidades com acessórios como grampos para pneus ou eletroímãs. Nossa cadeia de suprimentos global obtém componentes de alta qualidade, garantindo que seu equipamento atenda aos mais altos padrões.",
+			"Nossa abordagem centrada no cliente significa respostas rápidas e suporte dedicado. Desde a consulta até o pós-venda, a SOCMA garante que sua empilhadeira de 30 toneladas entregue valor a longo prazo, apoiada por inovação e uma rede global."
 		]
 	},
 	our_capabilities: [
 		{
-			title: "Superior Durability",
-			description: "Our 30 ton forklifts are engineered for tough environments, ensuring long-lasting performance."
+			title: "Durabilidade Superior",
+			description: "Nossas empilhadeiras de 30 toneladas são projetadas para ambientes difíceis, garantindo desempenho duradouro."
 		},
 		{
-			title: "Custom Solutions",
-			description: "We tailor each 30 ton forklift with attachments to meet your specific industry needs."
+			title: "Soluções Personalizadas",
+			description: "Adaptamos cada empilhadeira de 30 toneladas com acessórios para atender às necessidades específicas da sua indústria."
 		},
 		{
-			title: "Global Expertise",
-			description: "With exports to 40+ countries, we bring global standards to every 30 ton forklift."
+			title: "Expertise Global",
+			description: "Com exportações para mais de 40 países, trazemos padrões globais para cada empilhadeira de 30 toneladas."
 		},
 		{
-			title: "Dedicated Support",
-			description: "SOCMA offers responsive service, ensuring your 30 ton forklift runs smoothly."
+			title: "Suporte Dedicado",
+			description: "A SOCMA oferece serviço responsivo, garantindo que sua empilhadeira de 30 toneladas funcione sem problemas."
 		}
 	]
 };
