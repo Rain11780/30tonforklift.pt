@@ -8,9 +8,9 @@ import FAQ from "@/components/features/faq";
 
 // Metadata
 export const metadata = {
-	title: "SOCMA | 30 Ton Forklift Built for Your Toughest Challenges",
-	description: "Power up your operations with a 30 ton forklift designed for heavy-duty industries. From coal mining tire handling to steel smelting with electromagnets, stone quarrying, and container logistics, SOCMA’s HNF-300 delivers unmatched reliability. Looking for a 30 ton forklift for sale or 30 ton forklift rental? We’ve got you covered – whether in Sydney, Montgomery, or beyond."
-};
+	title: "SOCMA | Empilhadeira de 30 Toneladas Feita para Seus Maiores Desafios",
+	description: "Impulsione suas operações com uma empilhadeira de 30 toneladas projetada para indústrias pesadas. De manuseio de pneus na mineração de carvão à fundição de aço com eletroímãs, extração de pedras e logística de contêineres – a HNF-300 da SOCMA oferece confiabilidade incomparável. Procurando por uma empilhadeira de 30 toneladas à venda ou para aluguel? Nós temos a solução, seja em Sydney, Montgomery ou além."
+  };
 
 // Structured Data
 const jsonLd = {
